@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  padding-top: 70px;
+}
+.container .row {
+  width: 80%;
+  margin: auto;
+}
+.container .row .header {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.container .row .header h1 {
+  padding-top: 10px;
+  font-size: 50px;
+  color: #0a1128;
+}
+.container .row .header p {
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6e6e6e;
+}
+.container .row .header img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 70px;
+  left: 350px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.content .card {
+  flex: 1;
+  margin: 50px 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10pxpx;
+}
+.content .card:hover {
+  color: #1d1d1d;
+  background-color: #1282a2;
+  border-radius: 10px;
+}
+.content .card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.content .card h4 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.content .card p {
+  font-size: 15px;
+  color: #6e6e6e;
+  line-height: 1.5;
+  padding: 10px;
+}
+.content .card p:hover {
+  color: #1d1d1d;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+}
+.para {
+  margin-top: 15px;
+  padding: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6e6e6e;
+}
+.re {
+  margin: 40px;
+  color: #1282a2;
+}
+.re li {
+  margin-left: 40px;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #0a1128;
+  margin-bottom: 100px;
+}
+.logo_title,
+.navbar ul li a {
+  color: #fff;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.navbar ul li a {
+  padding: 12px;
+  margin: 0 6px;
+}
+.navbar ul li a:hover {
+  color: #1d1d1d;
+  background-color: #1282a2;
+  border-radius: 4px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+body {
+  font-family: "Unbounded", cursive;
+  background-color: #fefcfb;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: auto;
+}
+
+.shema {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+}
+.re h1 {
+  color: #1d1d1d;
+}
+.re h2 {
+  color: #390099;
+}

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tic</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#">
+        <h1 class="logo_title">Projet tic</h1>
+      </a>
+      <ul>
+        <li><a href="#ac">accueil</a></li>
+        <li><a href="#p1">Résumé 1</a></li>
+        <li><a href="#p2">Résumé 2</a></li>
+        <li><a href="#p3">Résumé 3</a></li>
+        <li><a href="#p4">Résumé 4</a></li>
+        <li><a href="#p5">Résumé 5</a></li>
+        <li><a href="#mp">Carte </a></li>
+      </ul>
+    </nav>
+    <a name="ac"></a>
+
+    <div class="container">
+      <div class="row">
+        <div class="header">
+          <img src="téléchargement-removebg-preview.png" alt="logo">
+          <div class="bold">
+          <p>Université des Sciences et de la Technologie Houari Boumediene</p>
+          <p>Faculté d'informatique</p>
+          <p>SECTION 04 / INFORMATIQUE  </p>
+        </div>
+        <br>
+       
+          <p>Resumé des chapitres du: </p>
+          <h1>Module TIC</h1>
+          
+          <p>proposé par MR Bouchekir</p>
+          <p>realisé par : <br>
+            <strong>Nom: </strong>Lounas  <strong>Prénom:</strong>  Abd El Malek <strong> Matricule:</strong> 222231520703 <br>
+            <strong>Nom: </strong>Hanafi  <strong>Prénom:</strong>  Meriem  <strong> Matricule:</strong> 222231354808 <br>
+           <strong>Nom: </strong> Saidani <strong>Prénom:</strong>  Meriem <strong> Matricule:</strong> 222231500114 <br> 
+         
+           <strong>Nom: </strong> Zeraia  <strong>Prénom:</strong>  Amira <strong> Matricule:</strong> 222231360818 <br> 
+           <strong>Nom: </strong>Mahdji  <strong>Prénom:</strong>  Ouafaa <strong> Matricule:</strong> 222231609703 <br>
+           <strong>Nom: </strong> Melouk  <strong>Prénom:</strong>  Dina Racha <strong> Matricule:</strong> 222231638320 <br>
+           <strong>Nom: </strong> Amiri  <strong>Prénom:</strong>  Amel <strong> Matricule:</strong> 222231318312 <br>
+          
+        
+
+   
+         
+           <strong>Nom: </strong>Gharbi  <strong>Prénom:</strong> Imene  <strong> Matricule:</strong>222231515115 <br> 
+           <strong>Nom: </strong> Behidj  <strong>Prénom:</strong>  Neila  <strong> Matricule:</strong> 222231640005 <br> 
+           <strong>Nom: </strong> Mebarki  <strong>Prénom:</strong>  Taous   <strong> Matricule:</strong> 222231638914  <br> 
+            </p>
+        </div>
+        
+        <div class="content">
+          <a href="#p1">
+            <div class="card">
+              <img src="data:image/jpeg;base64,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" alt="1" width="250px" height="250px" />
+              <h4>Introduction</h4>
+              <p>Les techniques de l'information et de la communication ...</p>
+            </div>
+          </a>
+          <a href="#p2">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW3aihMYDR7OvRpMSO24cHbZFzTKFtzsopmiv4nBFYWUAaOXjH" alt="2" width="250px" height="250px" />
+              <h4>Les réseaux informatiques</h4>
+              <p>Les réseaux informatiques Ensemble d’ordinateurs et ...</p>
+            </div>
+          </a>
+          <a href="#p3">
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRTf7EytHVBdyIXZViCapZhKTPo42FNlqbDrI9VvJ7b7LufZt" alt="3" width="250px" height="250px" />
+              <h4>Le modèle OSI</h4>
+              <p>Le modèle OSI (Open Systems Interconnection) divise ...</p>
+            </div>
+          </a>
+          <a href="#p4">
+            <div class="card">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX9ZbyzoRwQG-czWfHbTwRJgBQULJ3qKPT3SYhjv4H9YC67RRt" alt="1" width="250px" height="250px" />
+              <h4>l'Internet et le Web</h4>
+              <p>Le World Wide Web (WWW) est un système hypert...</p>
+            </div>
+          </a>
+          <a href="#p5">
+            <div class="card">
+              <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQjJLM-yvYmj9kNVTNjSTFKyB-vS8BfyKzVo41Kqnz5KuAQ1_hb" alt="1" width="250px" height="250px" />
+              <h4>Système de Gestion de Version</h4>
+              <p>
+                Git un logiciel de versioning créé en 2005 par Linus Torvalds...
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", myFunction);
+
+        var navbar = document.querySelector(".navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+      });
+    </script>
+  
+
+<div class="re">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a name="p1"></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Introduction</h1>
+  <br>
+  Telechargez le pdf <a href="https://drive.google.com/file/d/1oBYVGfStIPJWmkGxdW_zl6q0UCMWAiTx/view">ici</a>
+  <br>
+  <h2>1) Les techniques de l'information et de la communication (TIC):</h2>
+  <br>
+  <br>
+  <p>
+    Les techniques de l'information et de la communication (TIC) regroupent les
+    outils utilisés pour manipuler, traiter, produire, transmettre et échanger
+    des informations. Elles permettent une meilleure diffusion de l'information
+    et la conservation des données. Les TIC sont nées de la convergence de
+    l'informatique, des télécommunications, de l'électronique et de
+    l'audiovisuel. Les TIC comprennent des outils matériels et logiciels qui
+    permettent aux utilisateurs de communiquer, transmettre des données, accéder
+    à des sources d'informations, stocker des données, manipuler des
+    informations et produire du contenu sous forme de texte, images, son et
+    vidéo. Les techniques de l'informatique, de l'internet, de l'audiovisuel, du
+    multimédia et des télécommunications sont utilisées dans les TIC. les TIC
+    regroupent les outils et techniques qui facilitent la communication, l'accès
+    à l'information, le stockage, la manipulation et la production de contenu à
+    l'aide de l'informatique, de l'internet, de l'audiovisuel, du multimédia et
+    des télécommunications.
+  </p>
+  <br>
+  <br>
+  <h2>2) Catégories et objectifs:</h2>
+  <br>
+  <br>
+  <p>Les TIC sont présentés dans 3 grandes catégories :</p>
+  <ol>
+    <li>La téléinformatique</li>
+    <li>Télécommunication</li>
+    <li>L’électronique</li>
+  </ol>
+  <p>Objectifs recherchés:</p>
+  <ol>
+    <li>La connectivité</li>
+    <li>La modularité</li>
+    <li>Une implantation simple</li>
+    <li>Une utilisation facile</li>
+    <li>La fiabilité</li>
+  </ol>
+  <br>
+  <br>
+  <h2>3) Composants de TIC :</h2>
+  <br>
+  <br>
+  <p>
+    les composants des TIC comprennent à la fois des équipements matériels tels
+    que les ordinateurs, les téléphones portables, les tablettes, les
+    télévisions, etc., et des logiciels tels que les systèmes d'exploitation,
+    les logiciels d'application et les logiciels de gestion de réseaux. Ces
+    composants interagissent pour permettre l'utilisation et la communication
+    des technologies de l'information et de la communication.
+  </p>
+  <br>
+  <br>
+  <h2>4) Caractéristiques:</h2>
+  <br>
+  <br>
+  <p>
+    La rapidité <br />
+    La décentralisation du pouvoir <br />
+    Un meilleur accès aux informations <br />
+    La rationalité <br />
+    La mondialisation <br />
+    La répartition excellente L’intensité <br />
+  </p>
+  <h2>
+    <br>
+  <br>
+    5) Initiation aux techniques de communication Objectifs de communication :
+  </h2>
+  <br>
+  <br>
+  <p>
+    Un objectif de communication doit être défini en fonction de trois
+    dimensions. Au niveau cognitif, la communication vise à informer le
+    destinataire et à le sensibiliser à une marque, un produit, une idée ou une
+    entreprise. Au niveau affectif, le but est de modifier ou de renforcer
+    l'image de la marque ou du produit en influençant les attitudes et les
+    opinions. Au niveau comportemental, l'objectif est de provoquer l'achat ou
+    l'essai en modifiant les comportements des destinataires.
+  </p>
+  <br>
+  <br>
+  <h2>6) Système de communication :</h2>
+  <br>
+  <br>
+   <p>
+
+    un système de communication contient les concepts suivants :
+  </p>
+  <ul><li>Les partenaires de communication :L'émetteur / Le récepteur
+    </li>
+  <li>Les vecteurs : Message / Médias .
+</li>
+  <li>Les fonctions :Codage / Décodage / Réponse /Feedback 
+</li>
+  <li>Bruit </li>
+  <br>
+  <br>
+  <h2>6) Les types de communication :      </h2>
+  <br>
+  <br>
+  <p>Deux types de communications sont distingués : la communication institutionnelle (ou corporate) qui consiste à communiquer sur l'image de l'entreprise ou de l'institution à travers des moyens tels que la publicité, le mécénat, le parrainage ou le sponsoring ; et la communication commerciale ou de produit qui met en avant les caractéristiques, les performances et les avantages du produit de manière crédible et cohérente.</p>
+  <br>
+  <br>
+  <h2>7)	Les schémas de communication : </h2>
+  <br>
+  <br>
+  <p>1.	La communication interpersonnelle
+    2.	 La communication de groupe
+    3.	La communication de masse
+    </p>
+    <br>
+  <br>
+    <h2>8) Média et Multimédia :</h2>
+    <br>
+  <br>
+    <p>Les médias sont des moyens impersonnels qui permettent une diffusion large et collective d'informations, quels que soient les supports utilisés : messages écrits (tels que la presse, l'édition et l'affichage publicitaire), radiodiffusion (radio), télédiffusion (télévision, câble ou satellite), projection cinématographique (films, documentaires, publicités) et réseau Internet (sites d'information, propagande et spams). 
+      le multimédia comme l'ensemble des techniques et des produits qui permettent l'utilisation simultanée et interactive de plusieurs modes de représentation de l'information (textes, sons, images fixes ou animées).
+     </p>
+     <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a name="p2"></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Les réseaux informatiques</h1>
+  <br>
+  Telechargez le pdf <a href="https://drive.google.com/file/d/1OttV121LBnhVXOsdLqj37C7hy3eluVaE/view?usp=share_link">ici</a>
+  <br>
+  <h2>1) Réseau (informatique) Network :</h2>
+  <br>
+  <br>
+  <p>Ensemble d'ordinateurs et de terminaux (ou des périphériques) autonomes (libres) connectés entre eux et qui sont situés dans un certain domaine géographique, pour échanger des informations numériques, selon des règles bien définies.
+    Mise en réseau (Networking) : Mise en œuvre des outils et des tâches permettant de relier des ordinateurs afin qu'ils puissent partager des ressources.
+    </p>
+    <br>
+  <br>
+    <h2>2)	 Les caractéristiques de base d'un réseau :</h2>
+    <br>
+  <br>
+    <p>La topologie : <br>  On distingue deux types de topologies : La topologie physique et la topologie logique. <ul><li>Le débit exprimé en bits/s (ou bps)</li>
+    <li>La distance maximale (ou portée)</li>
+    <li>Le nombre de nœuds maximum</li></ul>
+
+    </p>
+    <br>
+  <br>
+    <h2>3)	Éléments d'un reseau :</h2>
+    <br>
+  <br>
+    <p>Les ordinateurs <br> 
+       Les logiciels <br>
+       Les supports du : LAN <br>
+      Les équipements d'interconnexion du LAN <br>
+      </p>
+      <br>
+  <br>
+      <h2>4)	Classification des réseaux :</h2>
+      <br>
+  <br>
+      <p>Les réseaux peuvent être classifiés en fonction de différents critères, notamment la portée (LAN, MAN et WAN). Les LAN (Local Area Networks) sont des réseaux locaux dentreprise constitués d&#3ordinateurs et de périphériques reliés entre eux et implantés dans une même entreprise. Les MAN (Metropolitan Area Networks) sont des réseaux étendus dans une ville ou une région. Les WAN (Wide Area Networks) sont des réseaux étendus à l&#3échelle d&#3un pays ou d&#3une région du monde, voire à l&#3échelle mondiale. Les réseaux filaires utilisent différents types de câbles, la fibre optique et les lignes téléphoniques. Les réseaux sans fil sont basés sur les ondes radios, les ondes infrarouges, les satellites et le Bluetooth. Les réseaux peuvent être organisés en mode peer-to-peer ou client-serveur.</p>
+      <br>
+  <br>
+  <h2>5) Le type de topologie :</h2>
+      <br>
+  <br>
+    <p>Enfin, le chapitre aborde le type de topologie, qui peut être en bus, en étoile ou en anneau.</p>
+    <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a name="p3"></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Le modèle OSI</h1>
+  <br>
+  Telechargez le pdf <a href="https://drive.google.com/file/d/1KSogXwN3FSq9Ra30YriTA0Q22fchNkAz/view?usp=sharing">ici</a>
+  <br>
+  <h2>1): Les Composants matériel d’un Réseau informatique</h2>
+  <br>
+  <br>
+  <p>Les cartes réseau, également appelées NIC (cartes d'interface réseau), sont des composants matériels installés à l'intérieur des ordinateurs. Elles permettent la connexion à des réseaux tels qu'Internet ou un réseau local. Ces cartes jouent un rôle essentiel dans la communication entre les ordinateurs d'un réseau, en facilitant la transmission et la réception de données via des protocoles spécifiques comme TCP/IP. <br> Un switch est un composant matériel qui connecte des appareils sur un réseau local (LAN). Il permet aux appareils tels que des ordinateurs, des imprimantes, des serveurs, etc. de communiquer entre eux en utilisant des adresses MAC. Lorsqu'un appareil se connecte au switch, celui-ci vérifie son adresse MAC et la stocke dans une table. Ainsi, lorsque d'autres appareils veulent communiquer avec cet appareil, le switch utilise cette table pour envoyer les données uniquement à l'appareil destinataire, évitant ainsi les diffusions inutiles. Les switches existent en différentes tailles pour différents types de réseaux. Ils peuvent offrir des fonctionnalités avancées telles que la gestion des VLAN, la qualité de service (QoS), la gestion du trafic, etc. <br> Un hub est un composant matériel utilisé pour connecter plusieurs appareils sur un réseau local. Il fonctionne comme un répéteur, transmettant les données reçues à tous les appareils connectés. Contrairement à un switch qui envoie les données uniquement à l'appareil destinataire, le hub envoie les données à tous les appareils, indépendamment du destinataire. Les hubs ont été largement remplacés par des switches plus efficaces pour gérer le trafic réseau, offrant une communication plus rapide et sécurisée. Les hubs sont encore utilisés dans des applications spécifiques ou dans des réseaux de petite taille où la complexité d'un switch n'est pas nécessaire <br> </p>
+  <br>
+  <br>
+  <h2>2) Le Modèle OSI: </h2>
+  <p>Le modèle OSI (Open Systems Interconnection) divise les communications en sept couches distinctes :</p>
+  <ol><li>Couche physique : transmission des données sur le support physique.</li>
+  <li>Couche liaison de données : transmission des données entre appareils partageant un même support physique.</li>
+  <li>Couche réseau : routage des données à travers le réseau.</li>
+  <li>Couche transport : acheminement des données de bout en bout.</li>
+  <li>Couche session : établissement et gestion des sessions entre appareils.</li>
+  <li>Couche présentation : conversion des données dans un format compréhensible par l'appareil de destination.</li>
+  <li>Couche application : communication entre applications sur les appareils de réseau.</li>
+</ol><p>Le modèle OSI est utilisé pour concevoir et mettre en œuvre des réseaux informatiques, bien qu'il ne soit pas utilisé dans les protocoles modernes comme TCP/IP. Cependant, il reste utile pour comprendre les principes fondamentaux de la communication en réseau.</p>
+  
+<br>
+  <br>
+  <h2>3) Le Modèle TCP/IP</h2>
+  <br>
+  <br>
+  <p>Le modèle TCP/IP (Transmission Control Protocol/Internet Protocol) est un modèle de référence pour les communications de réseau, qui est utilisé pour la conception et la mise en œuvre des réseaux informatiques modernes. Contrairement au modèle OSI, qui divise les communications en sept couches distinctes, le modèle TCP/IP divise les communications en quatre couches principales :</p>
+  <ul><li>La couche liaison de données : cette couche est responsable de la transmission des données sur le support physique (par exemple, câble, fibre optique, ondes radio).</li>
+
+  <li>La couche réseau : cette couche est responsable du routage des données à travers le réseau.</li>
+
+  <li>La couche transport : cette couche est responsable de l'acheminement des données de bout en bout entre les appareils.</li>
+
+  <li>La couche application : cette couche est responsable de la communication entre les applications sur les appareils de réseau.</li></ul>
+<p>Le modèle TCP/IP est le modèle de référence pour les protocoles de communication de réseau les plus largement utilisés, tels que le protocole Internet (IP), le protocole de contrôle de transmission (TCP) et le protocole de datagramme utilisateur (UDP). Il est utilisé pour la conception et la mise en œuvre des réseaux d'entreprise, des réseaux Internet et des réseaux sans fil.</p>
+<br>
+  <br>
+  <h2>4) L’adressage</h2>
+  <br>
+  <br>
+<p>les communications dans un réseau obéissent à des règles telles que l'adressage, l'architecture et les protocoles pour assurer l'échange des données. L'adressage IP est une façon d'identifier de manière unique chaque ordinateur dans les réseaux. Il existe deux modes d'adressage IP, IPV4 et IPV6. L'adresse IPV4 est codée sur 32 bits, avec une adresse source et une adresse destinataire sur 32 bits chacune. Elle est généralement représentée sous forme de quatre chiffres en décimale séparés par un point. L'adresse IPV6, quant à elle, est codée sur 128 bits et est représentée sous forme de huit mots de 16 bits séparés par des deux-points, chacun étant en hexadécimal</p>
+<br>
+  <br>
+  <h2>5) L’adresse IPV4  </h2>
+  <br>
+  <br>
+<p>Chaque adresse IPv4 contient deux parties : une partie pour l'adresse réseau et une partie pour l'adresse hôte. Les adresses IPv4 peuvent être divisées en trois types : l'adresse réseau, l'adresse de diffusion et l'adresse hôte. Pour chaque adresse, on peut déterminer le nombre de machines possibles sur le réseau en fonction du nombre de bits dans la partie hôte. Le masque de réseau et de sous-réseaux est également abordé. Le texte fournit des exemples d'adresses IPv4 et de masques de réseau..</p>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a name="p4"></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>l'Internet et le Web </h1>
+  <br>
+  Telechargez le pdf <a href="https://drive.google.com/file/d/1ER3Ez6yxOAE-PS6sSrRTCAMPz3M8c-a4/view?usp=share_link">ici</a>
+  <br>
+  <h2>1) Le web et internet :</h2>
+  <br>
+  <br>
+  <p>Le World Wide Web (WWW) est un système hypertexte public sur Internet qui permet de consulter des pages accessibles sur des sites en utilisant un navigateur. Les pages web sont reliées entre elles par des hyperliens qui créent une image de toile d'araignée. Le Web est une application d'Internet qui a été inventée par Tim Berners-Lee et Robert Cailliau après la création d'Internet.</p>
+  <br>
+  <br>
+  <h2>2) Principe World Wide Web :</h2>
+  <br>
+  <br>
+  <ul><li>Accéder à des documents textuels</li>
+  <li>Situés sur des machines accessibles par Internet</li>
+  <li>Reliés entre eux par un mécanisme de lien « hypertexte »</li>
+  <li>Actuellement : servir des ressources</li>
+  <li>De différentes natures : texte, image, son, vidéo, contenu applicatif...et interactif
+    (l’achat/discussion....)
+    URL (pour Uniform Resource Locator)
+    Un lien hypertexte est un lien qui permet de suivre une URL (ouvrir une nouvelle page).
+    URL (pour Uniform Resource Locator), est le nom unique de la page. décrivant l’emplacement
+    d’une ressource. elle contient :
+    </li><li>L’adresse du serveur,</li>
+    <li>et l’adresse de la page sur le serveur.</li></ul>
+    <br>
+    <br>
+    <h2>3) Aspects techniques du Web :</h2>
+    <br>
+  <br>
+  <p>Les 3 mécanismes de base du Web sont : </p>
+  <ol><li>URL : <br> Le Web permet d’accéder à un ensemble de ressources,
+    <br> Le mécanisme de localisation peut faire appel au protocole DNS
+    </li>
+  <li>HTTP : <br> Protocole de niveau applicatif
+    <br> Paradigme client-serveur
+   <br> Protocole sans état (pas de « mémoire » des transactions précédentes)
+    </li>
+  <li>HTML : <br> Langage de description de « pages Web »
+    <br> Texte, images et autres objets
+    <br> Liens hypermédias entre les pages
+    <br> Programmation déclarative
+    </li></ol>
+    <br>
+  <br>
+  <h2>4) Page web et site web :</h2>
+  <br>
+  <br>
+    <p>Une page Web est un document multimédia qui contient des éléments tels que du texte, des images, des interactions et des liens. Elle est décrite avec un langage de description tel que HTML, XHTML ou HTML5 et stockée dans un fichier. Elle est interprétée et affichée par un navigateur et localisée sur Internet à l'aide d'une adresse (URL). Une page Web permet d'accéder à d'autres pages en suivant des liens. Un site Web est un regroupement de pages Web avec une thématique commune, reliées entre elles par des liens hypertextes et émanant d'une même entité. Les sites Web sont en général localisés sur un même serveur et structurés sous forme d'arborescence de dossiers et de fichiers. Les chemins relatifs peuvent être définis sur un site Web.</p>
+    <br>
+  <br>
+  <h2>5) Création d’une page web HTML :</h2>
+  <br>
+  <br>
+    <p>HTML : HyperText Markup Language Langage de description de pages web <br>
+      Un document HTML est :
+      </p>
+      <ul><li>Un fichier texte, construit suivant une syntaxe précise</li>
+      <li>Structuré par des balises</li>
+      <li>Interprété (visualisé) dans un navigateur </li>
+      <li>Créé dans un éditeur de pages web ou tout éditeur de texte.</li></ul>
+      <br>
+      <br>
+       <h2>6) Les principes de langage HTML:</h2>
+       <br>
+  <br>
+      <p>Les balises
+        Un fichier HTML doit comporter au minimum ces 4 balises : <br>
+        <html'>... <html> <br>
+        <head> ... </head> <br>
+        <title> ... </title> <br>
+        <body> ... </body> <br>
+        Les principes de langage HTML <br>
+        <html> ... </html>: Délimite le début et la fin du document  <br>
+        <head> ... </head>: Entête du document <br>
+        <title> ... </title>: Titre du document <br>
+        <body> ... </body> : Corps du document <br>
+        Les titres et paragraphes  <br>
+        <hn> ... <hn> : Titre de niveau n :1 à 6. Exemple <h1> Grand titre </h1> <br>
+        <p> ... <p> : paragraphe
+        </p>
+        <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a name="p5"></a>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>Système de Gestion de Version</h1>
+  <br>
+  Telechargez le pdf <a href="https://drive.google.com/file/d/1URabDL00FdKm2Igy40R3xk0Rj_nvdGR3/view?usp=share_link">ici</a>
+  <br>
+<h2>1)	Définition de GIT :  </h2>
+<br>
+  <br>
+<p>Git un logiciel de versioning créé en 2005 par Linus Torvalds.          C’est un logiciel de gestion de version qui permet de conserver un historique des modifications effectuées sur un projet, ce qui facilite grandement la gestion de projets et permet de travailler en équipe de manière plus efficace. Git est considéré comme le leader incontesté parmi les logiciels de gestion de versions, et il est indispensable pour tout développeur de savoir l'utiliser.</p>
+<br>
+  <br>
+  <h2>2)L’importance d’un système de gestion de version : </h2>
+  <br>
+  <br>
+<p>L'utilisation d'un serveur distant pour stocker l'historique des modifications effectuées par plusieurs développeurs est un moyen efficace de coordonner le travail sur un site web. Cela permet à chaque développeur d'avoir accès aux avancées des autres et d'avoir une version actualisée du site pour tester et implémenter ses fonctionnalités. Git est un outil de gestion de version décentralisé qui offre de nombreuses fonctionnalités supplémentaires telles que la synchronisation entre le dossier local et le serveur, la connexion à d'autres projets et la mise à jour des différences automatisée. Avec Git, les développeurs peuvent collaborer sur un projet tout en conservant un historique des changements effectués sur les fichiers.</p>
+<br>
+  <br>
+  <h2>3)	Les deux modèles des logiciels de gestion de version :</h2>
+  <br>
+  <br>
+<p>Les logiciels de gestion de version sont basés sur deux modèles : centralisé et décentralisé. Le modèle centralisé consiste à stocker le code source sur un serveur central et les utilisateurs doivent y accéder pour travailler dessus. Le modèle décentralisé,qui a été popularisé par Git, permet à chaque utilisateur de télécharger et d'héberger le code source sur sa propre machine, offrant ainsi plus de flexibilité et de sécurité en cas de corruption du serveur central.</p>
+<br>
+  <br><h2>4)	Définition de GitHub:</h2>
+  <br>
+  <br>
+
+<p>Le logiciel Git permet d'enregistrer les différentes modifications effectuées sur un projet et de revenir à une version antérieure du projet. Le dépôt ou "repository" est la copie de tous les fichiers et leurs versions sur le serveur central. GitHub est le plus grand hébergeur de dépôts Git au monde et permet l'hébergement de dépôts publics où n'importe qui peut contribuer en proposant de nouvelles fonctionnalités. Git est donc un logiciel de gestion de version tandis que GitHub est un service en ligne d'hébergement de dépôts Git qui agit comme un serveur central pour ces dépôts.</p>
+<br>
+  <br>
+  <h2>5)	L’utilisation de Git : </h2>
+  <br>
+  <br>
+<p>Nous utiliserons la ligne de commande plutôt qu'une interface graphique pour Git. Cela permettra d'avoir accès à toutes les commandes Git et que toutes les personnes aient accès aux mêmes commandes, donc suive le cours de la même façon. Savoir utiliser la version en ligne de commande vous permettra d'utiliser n'importe quelle interface graphique. 
+  
+  </p>
+  <br>
+  <br><h2>6)	 Installation de Git : </h2>
+  <br>
+  <br>
+
+<p>•	Télécharger la dernière version site officiel http://gitscm.com/downloads <br>
+  •	Ouvrir le fichier téléchargé et de suivre les instructions à l’écran en laissant toutes les valeurs par défaut.
+  </p>
+  <br>
+  <br>
+  <h2>7) Paramétrage de Git :</h2><br>
+  <br>
+
+<p>Il est recommandé de renseigner le nom d'utilisateur et l'adresse e-mail pour éviter de les fournir à nouveau plus tard. La commande "git config" est utilisée pour cela et permet de voir et de modifier les variables de configuration qui contrôlent tous les aspects de l'apparence et du comportement de Git. En passant l'option "--global", les informations renseignées seront utilisées globalement pour tout projet Git. Pour vérifier que les informations ont été enregistrées avec succès, on peut taper les commandes "git config user.name" et "git config user.email".</p>
+
+<br>
+  <br><h2>8)	Démarrer un dépôt Git :</h2>
+  <br>
+  <br>
+
+<p>Un “dépôt” correspond à la copie et à l’importation de l’ensemble des fichiers d’un
+  projet dans Git. Il existe deux façons de créer un dépôt Git : <br>
+  • On peut importer un répertoire déjà existant dans Git ; <br>
+  • On peut cloner un dépôt Git déjà existant.
+  </p>
+  <br>
+  <br>
+  <h2>9)	La gestion des informations selon Git : </h2>
+  <br>
+  <br>
+<p>Git gère les données en utilisant des instantanés ou "snapshots". Lorsqu'un état de projet est enregistré dans Git, il prend un instantané du contenu de l'espace de travail et enregistre une référence à cet instantané. Chaque instantané est stocké dans une base de données locale, ce qui permet à la plupart des opérations de Git d'être réalisées localement et donc plus rapidement et plus agréablement.</p>
+
+<br>
+  <br><h2>10)	Les états des fichiers :</h2>
+  <br>
+  <br>
+
+<p>Git suit les modifications sur les fichiers d'un projet en les considérant comme étant sous suivi ou non suivi. Lors du démarrage d'un dépôt Git à partir d'un répertoire existant, les fichiers sont non suivis et doivent être indexés et validés. Lorsqu'on clone un dépôt Git existant, les fichiers sont déjà suivis par défaut. Les fichiers sous suivi peuvent être modifiés, indexés ou validés. Un fichier est considéré comme modifié par Git tant qu'il n'a pas été indexé, et on peut indexer un fichier en indiquant à Git qu'il doit faire partie du prochain instantané. Lorsqu'on demande à Git de prendre un instantané, les fichiers faisant partie de l'instantané sont considérés comme validés.</p>
+
+<br>
+  <br>
+  <h2>11)	Les zones de travail :</h2>
+  <br>
+  <br>
+<p>Le projet Git est composé de trois sections : le répertoire de travail, la zone d'index et le répertoire Git. Le répertoire de travail est une extraction unique d'une version du projet, la zone d'index est un fichier stockant les informations sur les fichiers qui feront partie du prochain commit et le répertoire Git stocke les méta-données et la base de données des objets du projet. Les fichiers sont modifiés dans le répertoire de travail, puis indexés pour devenir "indexés", et finalement validés pour être ajoutés au répertoire Git.</p>
+
+<br>
+  <br>
+  <h2>12) Création d’un dépôt Git à partir d’un répertoire existant: </h2>
+  <br>
+  <br>
+<p>Pour importer un projet existant dans Git, vous pouvez créer un répertoire sur votre ordinateur et initialiser un dépôt Git en utilisant la commande "git init". Cela crée un sous-répertoire .git qui contient les fichiers nécessaires pour que le dépôt Git fonctionne. Ensuite, vous pouvez utiliser la commande "git status" pour déterminer l'état des fichiers de votre répertoire. Cette commande est très utile pour savoir si des fichiers ont été modifiés ou ajoutés depuis la dernière fois que vous avez effectué une sauvegarde. <br>
+
+  Il est important de noter que deux fichiers dans un projet Git ne sont pas sous suivi de version, et qu'aucun fichier n'a été validé ou ajouté pour validation. La commande "git status" permet de voir la branche sur laquelle on se trouve. Pour indexer des fichiers, on utilise la commande "git add", qui peut être utilisée pour indexer un seul fichier, tous les fichiers d'un répertoire ou tous les fichiers correspondant à un schéma donné. Les fileglobs utilisent les extensions de chemin de fichier, ce qui permet d'ajouter tous les fichiers correspondant à un schéma donné en utilisant des caractères spéciaux tels que * et ?. <br>
+  
+  La commande "git status" indique que deux nouveaux fichiers ont été ajoutés à l'index. Si vous avez déjà suivi des fichiers, vous pouvez également utiliser "git add" pour indexer des modifications apportées à ces fichiers. Les deux nouveaux fichiers apparaissent dans la section "modifications à valider", ce qui signifie qu'ils ont été ajoutés à l'index. Pour enregistrer ces modifications, utilisez la commande "git commit". <br>
+  Lorsque vous utilisez "git commit" sans argument, une nouvelle fenêtre s'ouvre en utilisant l'éditeur par défaut (VIM). Ajoutez un message avec votre commit pour documenter chaque modification. Une fois que vous avez entré votre message et que vous utilisez l'éditeur VIM, appuyez sur la touche "esc" pour sortir du mode insertion, puis tapez ":wq" et appuyez sur "entree" pour valider et quitter. Vous pouvez également taper ":x" et appuyer sur "entree" ou simplement "ZZ". Lorsque vous utilisez "git status" après avoir enregistré vos fichiers, Git vous informera qu'il n'y a plus de fichiers non suivis, ce qui signifie que tous les fichiers sont sous suivi de version et qu'aucune modification n'a été apportée depuis le dernier commit. 
+  
+  </p>
+  <br>
+  <br>
+  <h2>13) Clonage d’un depot git : </h2>
+  <br>
+  <br>
+<p>Deuxième façon de démarrer un dépôt Git est de cloner un dépôt Git existant en utilisant la commande "Git clone", puis Transférez vos fichiers sur GitHub. Si vous le vérifiez vous pourriez voir les deux fichiers. </p>
+
+<br>
+  <br>
+  <h2>14) L'ajout ou la modification des fichiers dans un projet et actualisation le dépôt Git: </h2>
+  <br>
+  <br>
+
+<p>Nous avons un projet et un dépôt Git pour gérer les versions. Lorsque nous travaillons sur le projet, nous ajoutons, modifions ou supprimons des fichiers. Git conserve un historique des versions pour nous permettre de revenir à un état précédent si nécessaire.
+  Pour enregistrer les modifications ou ajouts de fichiers dans le dépôt Git, utilisez les commandes git add et git commit. Le commit d'un fichier est basé sur l'état du fichier au moment de git add. Si vous modifiez un fichier après git add, seules les modifications avant git add seront enregistrées. Pour enregistrer la dernière version d'un fichier, effectuez un git add juste avant un git commit. Vous pouvez également utiliser git commit -a pour ajouter et valider les fichiers modifiés en une seule commande.
+  </p>
+  <br>
+  <br>
+  <h2> 15) Consultation de l'historique des modifications Git: </h2>
+  <br>
+  <br>
+<p> La commande git log permet de consulter l'historique des modifications Git de manière simple et affiche la liste des commits réalisés en ordre chronologique décroissant, avec les informations telles que la somme de contrôle SHA-1, le nom et l'e-mail de l'auteur, la date et le message du commit. </p>
+<br>
+<br>
+  <h2> 16) Annulation des modifications apportées à un fichier: </h2>
+<br>
+<br>
+<p>L'un des avantages clés de l'utilisation d'un logiciel de gestion de version est la capacité de "revenir en arrière" à un état antérieur enregistré d'un projet. Après un commit, si certaines modifications ne produisent pas les résultats souhaités, il est possible de revenir à l'état précédent en utilisant la commande git checkout -- nom-du-fichier ou la nouvelle commande git restore. </p>
+<br>
+<br>
+  <h2> 17) Création d'une branche: </h2>
+<br>
+<br>
+
+<p>Créer une branche dans Git est facile car une branche est simplement un pointeur vers un commit. C'est différent des autres systèmes de contrôle de version qui nécessitent une copie physique de l'ensemble du répertoire de travail. Les branches sont faciles à créer et à fusionner dans Git, ce qui permet de développer et de tester de nouvelles fonctionnalités sans affecter le projet principal.
+  La branche master n'est pas spéciale dans Git et est traitée comme les autres branches. Elle est créée automatiquement lors de la commande git init et nommée "master". Les branches sont simplement des pointeurs vers un commit spécifique, ce qui facilite la création de nouvelles branches.
+</p>
+</div>
+<br>
+<a name="mp"></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="shema">
+voici le schéma du projet
+<br>
+<br>
+
+
+
+
+<img src="shema_-removebg-preview.png" alt="shema">
+</div>
+</body>
+</html>
